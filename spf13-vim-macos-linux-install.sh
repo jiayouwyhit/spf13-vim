@@ -13,11 +13,11 @@
 #   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 #   See the License for the specific language governing permissions and
 #   limitations under the License.
-
+#   Origin: #'https://github.com/spf13/spf13-vim.git'
 ############################  SETUP PARAMETERS
 app_name='spf13-vim'
 [ -z "$APP_PATH" ] && APP_PATH="$HOME/.spf13-vim-3"
-[ -z "$REPO_URI" ] && REPO_URI= 'https://github.com/jiayouwyhit/spf13-vim.git' #'https://github.com/spf13/spf13-vim.git'
+[ -z "$REPO_URI" ] && REPO_URI= 'https://github.com/jiayouwyhit/spf13-vim.git'
 [ -z "$REPO_BRANCH" ] && REPO_BRANCH='3.0'
 debug_mode='0'
 fork_maintainer='0'
