@@ -112,7 +112,7 @@ The simpliest (and safest) way to update is to simply rerun the installer. It wi
 
 ```bash
 
-    curl https://j.mp/spf13-vim3 -L -o - | sh
+    curl https://raw.githubusercontent.com/jiayouwyhit/spf13-vim/3.0/spf13-vim-macos-linux-install.sh -L -o - | sh
 
 ```
 
