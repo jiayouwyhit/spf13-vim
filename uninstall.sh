@@ -15,4 +15,12 @@ rm -r $HOME/.vimrc
 rm -rf $HOME/.vimrc.bundles
 rm -rf $HOME/.vim
 
+# added by Yong
+rm -rf $HOME/.vimbackup
+rm -rf $HOME/.vimrc.before
+rm -rf $HOME/.vimswap
+rm -rf $HOME/.vimundo
+rm -rf $HOME/.vimviews
+
+
 rm -rf $app_dir
