@@ -21,6 +21,6 @@ rm -rf $HOME/.vimrc.before
 rm -rf $HOME/.vimswap
 rm -rf $HOME/.vimundo
 rm -rf $HOME/.vimviews
-
+rm -f  $HOME/.vimrc.local
 
 rm -rf $app_dir
