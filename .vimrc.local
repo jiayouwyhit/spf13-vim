@@ -48,6 +48,10 @@ inoremap <special> <expr> <Esc>[200~ XTermPasteBegin()
 " Remove the highlighted indent guides
 let g:indent_guides_enable_on_vim_startup = 0
 
+" Recover the default value of conceallevel
+" See this link: https://stackoverflow.com/questions/12130454/vim-latex-suite-display-inline-math-delimiters
+set conceallevel=0
+
 "=============The settings of vim-latex (latex suite) starts==========
 "Note: Please also add the path of pdflatex etc to your global $PATH 
 "E.g., 
@@ -81,4 +85,8 @@ let g:tex_flavor='latex'
 " type in \ref{fig: and press you will automatically cycle through
 " all the figure labels. Very useful!
 " set iskeyword+=:
+"
+" Always ignore the possible Makefile in the latex folder
+" See the link here: http://vim-latex.sourceforge.net/documentation/latex-suite/customizing-compiling.html#Tex_UseMakefile
+let g:Tex_UseMakefile=0
 "=============The settings of vim-latex (latex suite) starts==========
