@@ -56,6 +56,8 @@ set conceallevel=0
 "Note: Please also add the path of pdflatex etc to your global $PATH 
 "E.g., 
 " export PATH=/usr/local/texlive/2014/bin/universal-darwin/:$PATH
+" or
+" export PATH=/usr/local/texlive/2014/bin/x86_64-darwin/:$PATH
 "
 " REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 filetype plugin on
@@ -89,4 +91,9 @@ let g:tex_flavor='latex'
 " Always ignore the possible Makefile in the latex folder
 " See the link here: http://vim-latex.sourceforge.net/documentation/latex-suite/customizing-compiling.html#Tex_UseMakefile
 let g:Tex_UseMakefile=0
+
+" Make sure that vim-latex can run the bibtex automatically when typing in ",ll" 
+" http://vim-latex.sourceforge.net/documentation/latex-suite/compiling-multiple.html
+"let g:Tex_DefaultTargetFormat='pdf'
+"let g:Tex_MultipleCompileFormats='pdf'
 "=============The settings of vim-latex (latex suite) starts==========
