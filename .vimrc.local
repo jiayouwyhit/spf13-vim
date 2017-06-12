@@ -95,5 +95,5 @@ let g:Tex_UseMakefile=0
 " Make sure that vim-latex can run the bibtex automatically when typing in ",ll" 
 " http://vim-latex.sourceforge.net/documentation/latex-suite/compiling-multiple.html
 "let g:Tex_DefaultTargetFormat='pdf'
-"let g:Tex_MultipleCompileFormats='pdf'
+let g:Tex_MultipleCompileFormats='pdf'
 "=============The settings of vim-latex (latex suite) starts==========

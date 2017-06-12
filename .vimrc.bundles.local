@@ -1,1 +1,5 @@
 Bundle 'vim-latex/vim-latex'
+UnBundle 'Shougo/neosnippet'
+UnBundle 'Shougo/neosnippet-snippets'
+UnBundle 'Shougo/neocomplete.vim.git'
+
