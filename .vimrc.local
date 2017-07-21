@@ -72,7 +72,7 @@ filetype plugin on
 set grepprg=grep\ -nH\ $*
 
 " OPTIONAL: This enables automatic indentation as you type.
-filetype indent on
+"filetype indent on
 
 " OPTIONAL: Starting with Vim 7, the filetype of empty .tex files defaults to
 " 'plaintex' instead of 'tex', which results in vim-latex not being loaded.
@@ -94,6 +94,20 @@ let g:Tex_UseMakefile=0
 
 " Make sure that vim-latex can run the bibtex automatically when typing in ",ll" 
 " http://vim-latex.sourceforge.net/documentation/latex-suite/compiling-multiple.html
-"let g:Tex_DefaultTargetFormat='pdf'
 let g:Tex_MultipleCompileFormats='pdf'
-"=============The settings of vim-latex (latex suite) starts==========
+
+" pdf compile and view settings                                
+"let g:Tex_ViewRule_pdf = 'open -a Preview'
+"let g:Tex_CompileRule_pdf = 'latexmk -pdf'
+
+" ignore all warnings below level 4
+"let g:TCLevel = 4
+
+" Avoid openning new files when there are compiling errors
+let g:Tex_GotoError=0
+
+"testing the debug mode
+let g:Tex_Debug = 1
+let g:Tex_DebugLog = "vim-latex-suite.log"
+
+"============The settings of vim-latex (latex suite) starts==========
