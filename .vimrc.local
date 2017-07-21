@@ -111,3 +111,4 @@ let g:Tex_Debug = 1
 let g:Tex_DebugLog = "vim-latex-suite.log"
 
 "============The settings of vim-latex (latex suite) starts==========
+
